@@ -1,0 +1,172 @@
+@charset "utf-8";
+ 
+/* CSS Document */
+ 
+/* Personalização da Navbar */
+.navbar {
+    background-color:burlywood; /* Cor de fundo */
+}
+ 
+/* Links da Navbar */
+.navbar-nav .nav-link {
+    color: black; /* Cor dos nomes das páginas */
+    font-size: 18px; /* Tamanho das letras */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Tipo da fonte */
+    margin-left: 15px; /* Espaço entre os links */
+}
+ 
+/* Link da página atual */
+.navbar-nav .nav-link.active {
+    color: black; /* cor dos links História */
+}
+
+/* Menu Páginas */
+.navbar-nav a {
+    color: bisque; 
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+/* Formatação das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+ 
+/* Cards gerais */
+.card {
+    background-color: burlywood;
+}
+ 
+/* Fotos da equipe */
+.equipe-foto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    background-color: black;
+}
+ 
+/* Texto dos cards */
+.card-body {
+    text-align: center;
+}
+ 
+/* Cards da equipe */
+.equipe-card {
+    background-color: bisque;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* Títulos da equipe */
+.card-title {
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* Descrição da equipe */
+.card-text {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+/* Card da história */
+.historia-card {
+    width: 100%;
+    margin: 20px auto;
+    background-color: bisque;/* Define cor do fundo */
+}
+ 
+/* Foto da história */
+.historia-foto {
+    width: 100%;/* Faz a imagem ocupar toda a largura */
+    height: 100%;/* Faz a imagem ocupar toda a altura */
+    object-fit: cover;/* Evita que a imagem fique deformada */
+    display: block;/* Organiza a imagem como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Título da página Ambientes */
+h1 {
+    color: bisque; 
+    text-align: center; /* Deixa o título centralizado */
+    font-size: 40px; 
+    font-family: Georgia; 
+}
+ 
+/* Subtítulo da página */
+h2 {
+    color: bisque; 
+    text-align: center; 
+    font-family: Georgia; 
+}
+ 
+/* Texto de apresentação */
+p {
+    color: black; /* muda a cor */
+    text-align: center; /* Centraliza o texto */
+    font-size: 18px; /* Aumenta o tamanho das letras */
+}
+
+/* Formatação do Accordion */
+.accordion {
+    margin: 20px auto; /* Espaço ao redor do Accordion */
+    width: 90%; /* Largura do Accordion */
+}
+ 
+/* Títulos do Accordion */
+.accordion .accordion-button {
+    background-color: bisque; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* Respostas do Accordion */
+.accordion-body {
+    background-color: burlywood;
+    color: black; /* Cor do texto */
+    font-size: 16px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+/* Borda do Accordion */
+.accordion-item{
+    border: 1px solid rgb(0, 0, 0); 
+}
+
+ /* Formatação do Botão Voltar ao Topo */
+        #btnTopo {
+            display: none;
+            position: fixed;
+            bottom: 35px;
+            right: 35px;
+            z-index: 1000;
+ 
+            background-color:bisque;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+ 
+            font-size: 26px;
+            cursor: pointer;
+            box-shadow: 0 3px 8px #0003;
+            transition: background-color 0.3s;
+        }
+ 
+        /* Efeito ao passar o mouse */
+        #btnTopo:hover {
+            background-color: white;
+        }    
+   
